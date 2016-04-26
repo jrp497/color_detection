@@ -12,6 +12,6 @@ Matlab detects the movement of the colored object using laptops camera and sends
 
 There are two seperate logics or codes one to be implemented in matlab and the other governs the UNO controller.
 
-Codes have been provided. You however need to change the COM port in the Matlab code. Since the communication port may be different for your system. Also using matlab as image processing tool, to detect an object of particular color, you need to seperate the R, G and B components and specify the minimum and maximum values in vartable I in the code.
+Codes have been provided. You however need to change the COM port in the Matlab code. Since the communication port may be different for your system. Also using matlab as image processing tool, to detect an object of particular color, you need to seperate the R, G and B components and specify the respective minimum and maximum values in variable I in the code.
 
 Such color detection can also be used to perform action in your own laptop such as moving mouse cursor by moving the object in front of camera ie cursor moves right if the object moves right and likewise left for object moving left.
